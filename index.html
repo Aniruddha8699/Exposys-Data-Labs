@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Video Chatting Site | EXPOSYS</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="https://www.exposysdata.com/"> <strong> Exposys Data Labs </strong> </a>
+      <div id="headText">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    <section id="main">
+      <div id="userOut">
+          <label id="userName"></label><br>
+          <button id="chngUser">Change Username?</button><br><br>
+      </div>
+
+      <div id="userIn">
+          <label>Enter Your Name</label><br>
+          <input type="text" id="myName" placeholder="Eg. Aniruddha">
+          <button id="confirm">Confirm</button>
+          <br><br>
+      </div>
+      <div id="connectionDetails">
+          <label>Your Id:</label><br>
+          <textarea id="yourId"></textarea><br>
+          <label>Other Id:</label><br>
+          <textarea id="otherId"></textarea><br>
+          <button id="connect">Connect</button><br>
+      </div>
+
+      <button id="hideDetails">Hide Details</button><br>
+      <button id="showDetails">Show Details</button><br>
+
+      <div id="controls">
+          <button id="showText"> Chat </button>
+      </div>
+
+      <div id="textChat">
+          <label>Enter Message:</label><br>
+          <textarea id="yourMessage"></textarea>
+          <button id="send">send</button>
+          <pre id="messages"></pre>
+      </div>
+    </section>
+
+    <footer>
+      <!-- EXPOSYS's footer goes here-->
+    </footer>
+    <script src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>

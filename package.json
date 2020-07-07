@@ -1,0 +1,16 @@
+{
+  "name": "exposys",
+  "version": "1.0.0",
+  "description": "Video Chatting Website for Exposys Data Labs",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^11.6.4",
+    "simple-peer": "^9.7.2",
+    "watchify": "^3.11.1"
+  }
+}

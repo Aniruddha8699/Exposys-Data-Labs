@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  font-size: 20px;
+}
+header{
+  padding: 14px 190px;
+  background-color: #222222;
+  height: 70px;
+}
+header a{
+  text-decoration: none;
+  color: azure;
+  font-family: sans-serif;
+}
+ header a strong{
+  font-size: 40px;;
+  font-weight: bold;
+  margin-top: 50px;
+  text-shadow: 2px 2px #ECB85E;
+  padding-top: 100px;
+}
+header ul{
+  float: right;
+  list-style-type: none;
+  margin-right: 25px;
+}
+header ul li{
+  display:inline-flex;
+}
+header ul li a{
+  text-decoration: none;
+  color: beige;
+  padding-left: 50px;
+  transition: 0.8s ease;
+  font-size: 18px;
+  font-family:serif;
+  top: 40px;
+  padding-top:1px;
+  padding-bottom: 25px;
+}
+#main{
+  width: 50%;
+  margin: 20px;
+  left: 0;
+  font-size: 1.5vw;
+}
+#userOut{
+  display: none;
+  font-weight: bold;
+  font-size: 6 em;
+}
+#showDetails{
+  display: none;
+}
+#controls{
+  display: none;
+}
+#textChat{
+  display: none;
+}
+video{
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+}
+#connect, #confirm, #hideDetails, #showDetails, #chngUser, #showText, #send{
+  padding: 2px;
+  border: 1px solid black;
+  background-color: #396692;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#chngUser{
+  background-color:darkgrey;
+}
+
+#connect{
+  margin-top: 5px;
+}
+#hideDetails{
+  margin-top: 5px;
+}
+#yourId, #otherId, #myName{
+  border-radius: 10px;
+  padding: 5px;
+}
+#textChat{
+  width: 70%;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+#messages{
+  overflow-y:scroll;
+  overflow-x: auto;
+  color: white;
+  background-color: grey;
+}
